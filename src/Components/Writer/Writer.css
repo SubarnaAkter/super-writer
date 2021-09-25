@@ -1,0 +1,21 @@
+.writer{
+    border-radius: 8px;
+}
+.writer img{
+    width:200px;
+   border-radius: 50%;
+   height: 200px;
+}
+.card-height{
+    height: 550px;
+}
+.writer-name{
+    color:rgb(99, 10, 28)
+}
+.add-btn{
+    background-color: rgb(133, 23, 235);
+    color: white;
+   padding:5px 18px;
+   border-radius: 12px;
+   font-weight: 500;
+}

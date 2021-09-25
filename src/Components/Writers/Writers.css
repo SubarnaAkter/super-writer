@@ -1,0 +1,11 @@
+.writers{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.cart{
+    background-color: rgb(245, 236, 236);
+   
+    overflow: scroll;
+    position: sticky;
+    top:0;
+}
