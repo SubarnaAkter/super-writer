@@ -1,0 +1,19 @@
+.selected{
+    border:1px solid violet;
+
+   display: flex;
+   border-radius: 5px;
+   background-color: rgb(245, 216, 245);
+   align-items: center;
+   margin:5px;
+
+}
+.selected img{
+    width:50px;
+  
+    border-radius: 5px;
+}
+.cancel-btn{
+    color:red;
+   
+}

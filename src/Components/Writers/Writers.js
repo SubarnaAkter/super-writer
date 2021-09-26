@@ -27,10 +27,12 @@ const Writers = () => {
         </div>
         <div className='cart h-25 p-5 ps-5 shadow-lg'>
                
-               <h2>List</h2>
+               <h2> Favourite List</h2>
                <hr />
                {
-                  <Cart cart={cart} ></Cart>
+                  <Cart
+                 
+                   cart={cart} ></Cart>
                }
         </div>
     </div>

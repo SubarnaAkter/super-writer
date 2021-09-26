@@ -6,9 +6,13 @@
    border-radius: 50%;
    height: 200px;
 }
-.card-height{
-    height: 550px;
+.card-style{
+    height: 500px;
+   border:1px solid rgb(168, 100, 231)
 }
+
+   
+
 .writer-name{
     color:rgb(99, 10, 28)
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import {  faTimes, faUser } from '@fortawesome/free-solid-svg-icons'
 import './Cart.css'
 
 const Cart = (props) => {
@@ -18,11 +18,18 @@ const Cart = (props) => {
         
            <div>
            Writers :
-           <ul>
+           <div>
               {
-                  cart.map(item=> <li>{item.name}</li>)
+                  cart.map((item,id)=>
+                 
+                    <div className='selected' key={id}>
+                     
+                      <img src={item.img} alt="" />
+                      <h6 className="p-2">{item.name}</h6> 
+                      <button className="cancel-btn btn m-1"><FontAwesomeIcon  icon={faTimes} /></button>
+                     </div>)
               }
-            </ul>
+            </div>
            </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import './Writer.css';
 
 const Writer = (props) => {
@@ -11,21 +11,21 @@ const Writer = (props) => {
         
         <div >
             <div className="col">
-                <div className="card card-height writer text-center py-4 shadow ">
+                <div className="card card-style writer text-center py-4 shadow ">
                     <img src={img} className="card-img-top mx-auto" alt=""/>
                 <div className="card-body">
                     <h3 className="card-title writer-name">{name}</h3>
-                    <p className="card-text">Age:{age}</p>
+                    <h6 className="card-text ">Age:{age}</h6>
                    
-                    <p className="card-text">Income:{income}</p>
-                    <p className="card-text">Education:{education}</p>
-                    <p className="card-text">Notable Awards:{notableAwards}</p>
+                    <h6 className="card-text">Income:{income}</h6>
+                    <h6 className="card-text">Education:{education}</h6>
+                    <h6 className="card-text">Notable Awards:{notableAwards}</h6>
 
-                    <button className="btn add-btn" onClick={()=>{
+                    <button className="btn add-btn m-3" onClick={()=>{
                         props.handleCart(props.writer)
-                    }}><FontAwesomeIcon icon={faShoppingCart} /> Add to Cart</button>
+                    }}><FontAwesomeIcon icon={faShoppingCart} /> Add to List</button>
 
-             
+
                 </div>
               </div>
             </div>
