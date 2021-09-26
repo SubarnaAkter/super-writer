@@ -6,15 +6,15 @@ This project was bootstrapped with [Bengali Super Writers](https://serene-hoover
 
 In the project directory, you can run:
 
-#^   `Famous Writer`
+* `Famous Writer`
 
-You will find Some famous Writer of Bangladesh by this app.
+-You will find Some famous Writer of Bangladesh by this app.
 
-#^   `Total cost`
+* `Total cost`
 
-You will  calculate total amount of selected books
+-You will  calculate total amount of selected books
 
-#^   `Listing`
+* `Listing`
 
-You can be select and list your favourite writer's book.
+-You can be select and list your favourite writer's book.
 The build is minified and the filenames include the hashes.\
