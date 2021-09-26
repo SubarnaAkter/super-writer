@@ -16,7 +16,7 @@ const Writers = () => {
          setCart(newCart);
     }
     return (
-     <div className="writers  my-5 ">
+     <div className="writers  my-5  ">
         <div className="row row-cols-1 row-cols-md-3 g-4 container ">
           {
               writers.map(writer=><Writer
@@ -25,14 +25,12 @@ const Writers = () => {
                  handleCart={handleCart}></Writer>)
           }
         </div>
-        <div className='cart h-25 p-5 ps-5 shadow-lg'>
+        <div className='cart h-25 p-5 ps-5 shadow-lg rounded '>
                
                <h2> Favourite List</h2>
                <hr />
                {
-                  <Cart
-                 
-                   cart={cart} ></Cart>
+                  <Cart cart={cart} ></Cart>
                }
         </div>
     </div>

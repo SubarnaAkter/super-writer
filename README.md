@@ -10,11 +10,11 @@ In the project directory, you can run:
 
 You will find Some famous Writer of Bangladesh by this app.
 
-### `Total income`
+### `Total cost`
 
-You will find their and calculate their total income
+You will  calculate total amount of selected books
 
 ### `Listing`
 
-You can be select and list your favourite writers.
+You can be select and list your favourite writer's book.
 The build is minified and the filenames include the hashes.\

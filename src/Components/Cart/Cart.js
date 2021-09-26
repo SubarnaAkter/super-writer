@@ -6,13 +6,12 @@ import './Cart.css'
 const Cart = (props) => {
     const {cart}=props;
    
-    console.log(cart)
-  const totalReducer=(previous,current)=>previous+current.income;
+  const totalReducer=(previous,current)=>previous+current.price;
   const total=cart.reduce(totalReducer,0);
     return (
         <div>
             <h4><FontAwesomeIcon icon={faUser} /> Writers added: {cart.length}</h4>
-            <h5 className="pt-5">Total Income : ${total}</h5>
+            <h5 className="pt-5">Total Amount : ${total}</h5>
 
             <hr className="mt-5"/>
         

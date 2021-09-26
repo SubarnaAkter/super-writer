@@ -2,13 +2,14 @@
     border-radius: 8px;
 }
 .writer img{
-    width:200px;
+    width:180px;
    border-radius: 50%;
-   height: 200px;
+   height:180px;
 }
 .card-style{
-    height: 500px;
-   border:1px solid rgb(168, 100, 231)
+  
+  height: 500px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
    
@@ -20,6 +21,10 @@
     background-color: rgb(133, 23, 235);
     color: white;
    padding:5px 18px;
-   border-radius: 12px;
+   border-radius: 17px;
    font-weight: 500;
+}
+.add-btn:hover{
+    color:white;
+    background-color: rgb(79, 7, 146);
 }
