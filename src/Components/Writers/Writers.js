@@ -27,7 +27,7 @@ const Writers = () => {
         </div>
         <div className='cart h-25 p-5 ps-5 shadow-lg rounded '>
                
-               <h2> Favourite List</h2>
+               <h2> Favourites List</h2>
                <hr />
                {
                   <Cart cart={cart} ></Cart>
